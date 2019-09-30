@@ -1,0 +1,30 @@
+{
+  "name": "b1tc0re/deftcms-build",
+  "description": "Сборка релизов из репозиториев",
+  "keywords": [
+    "b1tc0re",
+    "DeftCMS"
+  ],
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "b1tc0re",
+      "email": "b1tc0re@yandex.ru",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "m4tthumphrey/php-gitlab-api": "^9.13",
+    "php-http/guzzle6-adapter": "^1.0",
+    "league/flysystem": "^1.0.55",
+    "alchemy/zippy": "^0.4.9",
+    "ext-zip": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "DeftCMS\\Components\\Build\\": "src/"
+    }
+  }
+}
